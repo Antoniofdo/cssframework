@@ -9,7 +9,7 @@
 
 .btn-primary {
   background-color: $primary-color;
-  color: white;
+  color: rgb(83, 203, 240);
 
   &:hover {
     opacity: 0.9;
@@ -17,7 +17,7 @@
 }
 
 .btn-secondary {
-  background-color: white;
+  background-color: rgb(242, 245, 88);
   color: $primary-color;
   border: 1px solid $primary-color;
 }
