@@ -6,3 +6,4 @@ Team Memebers
 Antonio Fernando
 Riyansi Donga
 Mihir  Patel
+Edward Owusu Boafo
