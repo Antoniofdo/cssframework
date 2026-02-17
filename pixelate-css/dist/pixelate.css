@@ -20,31 +20,19 @@ img {
   height: auto;
 }
 
-body {
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #1f2933;
-  background-color: #f5f7fa;
-  margin: 0;
+section {
+  margin-bottom: 32px;
 }
 
-a {
-  color: #3a6df0;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 16px;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 h1 {
@@ -67,6 +55,10 @@ ul, ol {
   padding-left: 24px;
 }
 
+li {
+  margin-bottom: 4px;
+}
+
 .btn {
   display: inline-block;
   padding: 8px 16px;
@@ -78,16 +70,25 @@ ul, ol {
 
 .btn-primary {
   background-color: #3a6df0;
-  color: white;
+  color: #ffffff;
 }
 .btn-primary:hover {
   opacity: 0.9;
 }
 
 .btn-secondary {
-  background-color: white;
+  background-color: #f2f558;
   color: #3a6df0;
   border: 1px solid #3a6df0;
+}
+.btn-secondary:hover {
+  background-color: #3a6df0;
+  color: #ffffff;
+}
+
+.btn {
+  margin-right: 8px;
+  margin-bottom: 8px;
 }
 
 label {
@@ -104,8 +105,21 @@ input, textarea, select {
   margin-bottom: 16px;
   font-family: inherit;
 }
+input:focus, textarea:focus, select:focus {
+  outline: 2px solid #3a6df0;
+  outline-offset: 2px;
+  border-color: #3a6df0;
+}
 
-table {
+textarea {
+  min-height: 120px;
+}
+
+form {
+  max-width: 600px;
+}
+
+table, .table {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 24px;
@@ -118,7 +132,11 @@ th, td {
 }
 
 th {
-  background-color: #eef2ff;
+  background-color: #e78b67;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f5f7fa;
 }
 
 .m-1 {
@@ -163,7 +181,32 @@ th {
 
 .bg-primary {
   background-color: #3a6df0;
-  color: rgb(12, 213, 248);
+  color: #0cd5f8;
+}
+
+.text-secondary {
+  color: #f5f7fa;
+}
+
+.bg-secondary {
+  background-color: #f5f7fa;
+  color: #0cd5f8;
+}
+
+.border {
+  border: 1px solid #e5e7eb;
+}
+
+.border-0 {
+  border: 0;
+}
+
+.rounded {
+  border-radius: 6px;
+}
+
+.rounded-pill {
+  border-radius: 999px;
 }
 
 /*# sourceMappingURL=pixelate.css.map */

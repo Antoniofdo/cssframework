@@ -7,8 +7,22 @@ label {
 input, textarea, select {
   width: 100%;
   padding: $space-2;
-  border: 1px solid $border-color;  
+  border: $border-width solid $border-color;
   border-radius: $border-radius;
   margin-bottom: $space-3;
   font-family: inherit;
-} 
+
+  &:focus {
+    outline: 2px solid $primary-color;
+    outline-offset: 2px;
+    border-color: $primary-color;
+  }
+}
+
+textarea {
+  min-height: 120px;
+}
+
+form {
+  max-width: 600px;
+}
