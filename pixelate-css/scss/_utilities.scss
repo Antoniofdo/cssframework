@@ -10,9 +10,14 @@
 .fs-sm { font-size: 0.875rem; }
 .fs-lg { font-size: 1.25rem; }
 
-
 .text-primary { color: $primary-color; }
-.bg-primary { background-color: $primary-color; color: rgb(12, 213, 248); }
+.bg-primary { background-color: $primary-color; color: $on-accent; }
 
 .text-secondary { color: $secondary-color; }
-.bg-secondary { background-color: $secondary-color; color: rgb(12, 213, 248); }             
+.bg-secondary { background-color: $secondary-color; color: $on-accent; }
+
+
+.border { border: $border-width solid $border-color; }
+.border-0 { border: 0; }
+.rounded { border-radius: $border-radius; }
+.rounded-pill { border-radius: 999px; }

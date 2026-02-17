@@ -13,3 +13,7 @@ th, td {
 th {
   background-color: $table-header-bg;
 }
+
+tbody tr:nth-child(even) {
+  background-color: $secondary-color;
+}

@@ -20,6 +20,17 @@ img {
   max-width: 100%;
   height: auto;
 }
+section {
+  margin-bottom: $space-5;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: $space-4;
+}
+
+
 
 
 
