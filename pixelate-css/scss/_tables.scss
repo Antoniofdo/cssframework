@@ -1,4 +1,4 @@
-table {
+table, .table {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: $space-4;
@@ -6,11 +6,10 @@ table {
 
 th, td {
   padding: $space-2;
-  border: 1px solid $border-color;
-  border-color: royalblue;
+  border: $border-width solid $table-border-color;
   text-align: left;
 }
 
 th {
-  background-color: #e78b67;
+  background-color: $table-header-bg;
 }
